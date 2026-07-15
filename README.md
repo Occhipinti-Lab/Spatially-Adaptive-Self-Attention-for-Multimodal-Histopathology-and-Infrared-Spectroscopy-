@@ -311,7 +311,6 @@ Outputs include summary CSVs, t-test results, descriptive statistics, heatmaps, 
 
 ## Example Figures
 
-The following images are already present in this repository and will render on GitHub when the paths remain unchanged.
 
 ### Spectral preprocessing stages
 
@@ -332,8 +331,6 @@ The following images are already present in this repository and will render on G
 ### Model-performance summary figures
 
 <img src="stats%20plots/outputs/f1_score_heatmap_with_std.png" alt="F1 score heatmap with standard deviation" width="800">
-
-<img src="stats%20plots/outputs/radar_plot.png" alt="Radar plot comparing image-only spectra-only and multimodal models" width="650">
 
 ## Transfer Learning
 
