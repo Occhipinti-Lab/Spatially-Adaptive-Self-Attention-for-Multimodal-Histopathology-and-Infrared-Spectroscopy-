@@ -1,0 +1,40 @@
+Modality,Class,Metric,Score_mean,Score_std,Score_median,Score_min,Score_max,Score_count,Score_sem,Score_range,Score_cv,Score_ci_lower,Score_ci_upper
+Image-only,Malignant Epithelium,F1 Score,0.841,0.012,0.84,0.82,0.86,10,0.0038,0.04,1.4269,0.8336,0.8484
+Image-only,Malignant Epithelium,Precision,0.833,0.0164,0.83,0.81,0.85,10,0.0052,0.04,1.9688,0.8228,0.8432
+Image-only,Malignant Epithelium,Recall,0.851,0.016,0.85,0.83,0.88,10,0.005,0.05,1.8801,0.8412,0.8608
+Image-only,Malignant Stroma,F1 Score,0.509,0.0285,0.505,0.47,0.55,10,0.009,0.08,5.5992,0.4914,0.5266
+Image-only,Malignant Stroma,Precision,0.658,0.0336,0.64,0.62,0.72,10,0.0106,0.1,5.1064,0.6372,0.6788
+Image-only,Malignant Stroma,Recall,0.416,0.0337,0.405,0.38,0.48,10,0.0107,0.1,8.101,0.395,0.437
+Image-only,Non Malignant Epithelium,F1 Score,0.363,0.04,0.36,0.3,0.45,10,0.0127,0.15,11.0193,0.3381,0.3879
+Image-only,Non Malignant Epithelium,Precision,0.309,0.0292,0.3,0.28,0.37,10,0.0092,0.09,9.4498,0.291,0.327
+Image-only,Non Malignant Epithelium,Recall,0.442,0.0708,0.455,0.32,0.57,10,0.0224,0.25,16.0181,0.3981,0.4859
+Image-only,Non Malignant Stroma,F1 Score,0.756,0.019,0.76,0.72,0.78,10,0.006,0.06,2.5132,0.7442,0.7678
+Image-only,Non Malignant Stroma,Precision,0.7,0.02,0.7,0.67,0.74,10,0.0063,0.07,2.8571,0.6877,0.7123
+Image-only,Non Malignant Stroma,Recall,0.824,0.0435,0.82,0.78,0.9,10,0.0138,0.12,5.2791,0.797,0.851
+Image-only,Overall,Accuracy,0.7,0.0094,0.7,0.69,0.71,10,0.003,0.02,1.3429,0.6941,0.7059
+Multimodal,Malignant Epithelium,F1 Score,0.876,0.0151,0.875,0.86,0.9,10,0.0048,0.04,1.7237,0.8666,0.8854
+Multimodal,Malignant Epithelium,Precision,0.838,0.023,0.84,0.8,0.87,10,0.0073,0.07,2.7446,0.8237,0.8523
+Multimodal,Malignant Epithelium,Recall,0.922,0.0162,0.925,0.89,0.94,10,0.0051,0.05,1.757,0.912,0.932
+Multimodal,Malignant Stroma,F1 Score,0.762,0.0326,0.765,0.71,0.81,10,0.0103,0.1,4.2782,0.7418,0.7822
+Multimodal,Malignant Stroma,Precision,0.837,0.0263,0.84,0.79,0.88,10,0.0083,0.09,3.1422,0.8207,0.8533
+Multimodal,Malignant Stroma,Recall,0.701,0.0477,0.705,0.62,0.77,10,0.0151,0.15,6.8046,0.6714,0.7306
+Multimodal,Non Malignant Epithelium,F1 Score,0.528,0.0469,0.54,0.46,0.59,10,0.0148,0.13,8.8826,0.499,0.557
+Multimodal,Non Malignant Epithelium,Precision,0.573,0.067,0.57,0.49,0.72,10,0.0212,0.23,11.6928,0.5314,0.6146
+Multimodal,Non Malignant Epithelium,Recall,0.504,0.0924,0.5,0.39,0.66,10,0.0292,0.27,18.3333,0.4468,0.5612
+Multimodal,Non Malignant Stroma,F1 Score,0.847,0.0183,0.845,0.82,0.87,10,0.0058,0.05,2.1606,0.8356,0.8584
+Multimodal,Non Malignant Stroma,Precision,0.834,0.019,0.83,0.81,0.87,10,0.006,0.06,2.2782,0.8222,0.8458
+Multimodal,Non Malignant Stroma,Recall,0.859,0.0482,0.86,0.77,0.92,10,0.0152,0.15,5.6112,0.8292,0.8888
+Multimodal,Overall,Accuracy,0.815,0.0143,0.81,0.8,0.84,10,0.0045,0.04,1.7546,0.8062,0.8238
+Spectra-only,Malignant Epithelium,F1 Score,0.832,0.0114,0.83,0.82,0.85,10,0.0036,0.03,1.3702,0.8249,0.8391
+Spectra-only,Malignant Epithelium,Precision,0.82,0.0194,0.82,0.79,0.85,10,0.0061,0.06,2.3659,0.808,0.832
+Spectra-only,Malignant Epithelium,Recall,0.845,0.0276,0.85,0.8,0.89,10,0.0087,0.09,3.2663,0.8279,0.8621
+Spectra-only,Malignant Stroma,F1 Score,0.703,0.0258,0.705,0.66,0.75,10,0.0082,0.09,3.67,0.6869,0.7191
+Spectra-only,Malignant Stroma,Precision,0.722,0.0322,0.72,0.68,0.78,10,0.0102,0.1,4.4598,0.702,0.742
+Spectra-only,Malignant Stroma,Recall,0.688,0.0549,0.7,0.61,0.76,10,0.0174,0.15,7.9797,0.6539,0.7221
+Spectra-only,Non Malignant Epithelium,F1 Score,0.565,0.0292,0.57,0.52,0.61,10,0.0092,0.09,5.1681,0.547,0.583
+Spectra-only,Non Malignant Epithelium,Precision,0.494,0.0227,0.5,0.46,0.53,10,0.0072,0.07,4.5951,0.4799,0.5081
+Spectra-only,Non Malignant Epithelium,Recall,0.665,0.0585,0.67,0.58,0.77,10,0.0185,0.19,8.797,0.6287,0.7013
+Spectra-only,Non Malignant Stroma,F1 Score,0.807,0.0142,0.81,0.78,0.83,10,0.0045,0.05,1.7596,0.7982,0.8158
+Spectra-only,Non Malignant Stroma,Precision,0.868,0.0181,0.87,0.84,0.9,10,0.0057,0.06,2.0853,0.8568,0.8792
+Spectra-only,Non Malignant Stroma,Recall,0.753,0.0183,0.75,0.73,0.79,10,0.0058,0.06,2.4303,0.7416,0.7644
+Spectra-only,Overall,Accuracy,0.768,0.0114,0.77,0.75,0.79,10,0.0036,0.04,1.4844,0.7609,0.7751
