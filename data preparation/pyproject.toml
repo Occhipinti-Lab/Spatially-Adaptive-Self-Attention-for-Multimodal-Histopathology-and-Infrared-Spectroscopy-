@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "spectral-pathology-pipeline"
+version = "0.1.0"
+description = "Extract Agilent FTIR spectra and assign pathology labels from annotated images."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "h5py>=3.8",
+    "numpy>=1.23",
+    "pandas>=1.5",
+    "Pillow>=9.0",
+]
+
+[project.scripts]
+spectral-pathology = "spectral_pathology.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

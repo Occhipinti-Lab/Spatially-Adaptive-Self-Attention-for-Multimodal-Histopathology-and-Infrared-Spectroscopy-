@@ -1,0 +1,19 @@
+# Local data inputs
+data/
+images/
+*.csv
+*.tif
+*.tiff
+*.svs
+
+# Generated figures
+outputs/
+unified_exact_patch_figures*/
+*.png
+*.pdf
+
+# Python/cache files
+__pycache__/
+*.py[cod]
+.venv/
+venv/
