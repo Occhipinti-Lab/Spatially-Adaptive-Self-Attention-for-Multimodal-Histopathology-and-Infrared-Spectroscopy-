@@ -3,7 +3,10 @@
 <p align="center"><strong>Training, preprocessing, explainability, and figure workflows for paired H&amp;E histopathology and infrared spectroscopy breast cancer subtyping.</strong></p>
 
 <p align="center">
-  <a href="https://doi.org/10.5281/zenodo.4730312"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4730312.svg" alt="Dataset DOI"></a>
+  <a href="https://doi.org/10.5281/zenodo.4730312">
+    <img src="https://zenodo.org/badge/DOI/10.5281/zenodo.4730312.svg"
+         alt="DOI: 10.5281/zenodo.4730312">
+  </a>
 </p>
 
 ## Overview
@@ -44,7 +47,6 @@ The Zenodo record contains large archives and files including annotations, H&E i
 `-- stats plots/                      Classification-report statistics plots
 ```
 
-The steps below are the recommended top-level path for a fresh reproduction.
 
 ## What The Pipeline Does
 
