@@ -313,6 +313,8 @@ Outputs include summary CSVs, t-test results, descriptive statistics, heatmaps, 
 
 ## Example Figures
 
+###  Pathology annotation
+<img src="sample/annotated_sample.png" alt="sample" width="800">
 
 ### Spectral preprocessing stages
 
@@ -330,12 +332,7 @@ Outputs include summary CSVs, t-test results, descriptive statistics, heatmaps, 
 
 <img src="IR%20profile/results/plots/mean_profiles/A7_filtered_mean_profiles.png" alt="Mean infrared spectral profiles for A7" width="900">
 
-### Model-performance summary figures
-#### Accuracy
-<img src="stats%20plots/outputs/significance_plots/accuracy_with_significance.png" alt="Accuracy scores with statistical p-values" width="800">
 
-#### F1-score
-<img src="stats%20plots/outputs/significance_plots/f1_score_with_significance.png" alt="F1-score with statistical p-values" width="800">
 
 ## Transfer Learning
 
